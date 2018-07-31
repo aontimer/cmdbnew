@@ -96,9 +96,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mxonline3',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST':'127.0.0.1'
-
+        'PASSWORD': 'abc123Exa',
+        'HOST':'127.0.0.1',
+        'OPTIONS':{'init_command':'SET default_storage_engine=INNODB,character_set_connection=utf8,collation_connection=utf8_unicode_ci;'}
     }
 }
 
